@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.apiContainer{
+    width: 70.5%;
+    height:1070px;
+    background-color:grey;
+    margin: 0 auto;
+    border-radius:3px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+
+}
+.Text{
+  position: absolute;
+  top:70%;
+  width: 60%;
+}
+
+.Image{
+    position: absolute;
+    top:16%;
+    width: 100%;
+    border-bottom: 3px solid black;
+
+
+}
+.nextSlide{
+   opacity: 0;
+    transform: translateX(150%);
+   
+}
+.jokeValue{
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+ 
+}
+.previousSlide{
+    background-color: red;
+transform: translateX(-140%);
+opacity: 0;
+}
+.currentSlide{
+    opacity: 1;
+    transform: translateX(0);
+
+}
+
+.PositionImage{
+    display:flex;
+    justify-content:center;
+
+
+}
+
+.btnRight{
+    position: absolute;
+    top:30px;
+    right:-10%;
+    z-index: 1;
+    border: none;
+    background-color: transparent;
+    
+    
+}
+
+.btnLeft{
+    position: absolute;
+    top:37px;
+    left:-10%;
+    border: none;
+    background-color: transparent;
+    
+}
+
+.TextValue{
+    text-align: center;
+    
+}

@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ 
+   
+}
+
+.MainPage{
+
+    position: relative;
+  
+}
+
+.Box{
+    margin:0 auto;
+    width:1200px;
+    height: 76.4vh;
+   
+    display: flex;
+justify-content:center;
+align-items:center;
+}
+
+h5{
+  
+    text-align:center;
+  padding-top:10px;
+  font-size:70px;
+  color:transparent;
+  -webkit-text-stroke: 2px black;
+
+
+  
+}
+
+.Box-Content{
+    width:300px;
+height:500px;
+position: relative;
+
+background-color:rgb(47, 45, 45);
+
+
+    border:1px solid black;
+/* 
+    background-color:blueviolet; */
+}
+
+.Content-Image{
+  position: absolute;
+  top:20%;
+    display: flex;
+    height:300px;
+ 
+    align-items:center;
+    justify-content: center;
+}
+.Reference{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    
+    width: 100%;
+    height:30px;
+    border-top: 1px solid black;
+}
+h4{
+    /* color:#88053e; */
+}
+.Box-Content h3{
+ text-align:center;
+ 
+
+/* font-style: italic; */
+font-weight:800;
+height:30px;
+
+/* color:rgb(165, 2, 15); */
+color:#970707;
+
+background-color:rgb(75, 26, 26);
+border-bottom:2px solid black;
+}
+
+a{
+  color:black;
+  text-decoration:none;
+  font-size: 13px;
+  font-weight:700;
+}
+
+.ContentPage{
+    background-image: linear-gradient(to right top, #3b0323, #4b0229, #5b012d, #6c0030, #7d0032, #81002f, #85002b, #890027, #81011f, #780217, #6f040f, #670505);
+   
+    width: 100%;
+    height: 100vh;
+}
+
+.Header{
+    width:100%;
+    height:130px;
+border-bottom: 4px dashed   black;
+    text-align: center;
+}
+
+.Footer{
+position: fixed;
+bottom: 0;
+    width:100%;
+
+    height:70px;
+    background-color: black;
+}
+
+.imagee{
+    width:80%;
+    border:2px solid black;
+  }
